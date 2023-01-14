@@ -1,5 +1,9 @@
-const Button = ({ className, text }) => {
-  return <button className={className}>{text}</button>;
+const Button = ({ className, text, onMouseOver }) => {
+  return (
+    <button onMouseOver={onMouseOver} className={className}>
+      {text}
+    </button>
+  );
 };
 
 export default Button;
