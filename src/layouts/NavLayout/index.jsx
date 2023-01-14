@@ -1,6 +1,6 @@
 const MainLayout = ({ children }) => {
   return (
-    <main className="w-full h-[5rem] rounded-xl  bg-primary flex justify-center items-center">
+    <main className="sticky w-full h-[5rem] rounded-xl flex flex-row  bg-primary justify-between px-[45px] items-center">
       {children}
     </main>
   );
