@@ -1,13 +1,10 @@
 import MainLayout from "../../layouts/MainLayout";
-import Navbar from "../../components/Navbar";
+import HomeModules from "../../modules/Home";
 const Home = () => {
   return (
-    <>
-      <Navbar />
-      <MainLayout>
-        <h1>Ini home</h1>
-      </MainLayout>
-    </>
+    <MainLayout>
+      <HomeModules />
+    </MainLayout>
   );
 };
 export default Home;
